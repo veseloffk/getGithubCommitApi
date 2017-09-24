@@ -1,0 +1,26 @@
+{
+  "name": "getGithubCommitApi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "veseloffk",
+  "dependencies": {
+    "github": "^11.0.0",
+    "redis": "^2.8.0",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "express-request-id": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
